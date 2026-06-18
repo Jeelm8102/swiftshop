@@ -1,0 +1,12 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+.main-content {
+  flex-grow: 1;
+}
